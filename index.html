@@ -71,6 +71,7 @@ scrollspy function -->
         <h1>Siqi Yang</h1>
         <p>
           <!-- Stanford Vision and Learning Lab<br> -->
+		  PhD Candidate<br>
           Advisor: Prof. Brian C. Lovell and Dr. Arnold Wiliem<br>
           The University of Queensland<br>
           siqi.yang@uq.net.au<br>
@@ -83,6 +84,262 @@ scrollspy function -->
   </div>
 </section>
 
+<!-- Section: About -->
+<section id="about" class="section-about">
+  <div class="container">
+    <div class="row">
+      <h1 class="subtitle">About</h1>
+    </div>
+
+    <div class="row">
+      <p class="text-left">
+        I am a third-year PhD student in the School of Information Technology and Electrical Engineering at the University of Queensland, Australia. I am now under the supervision of <a href="https://researchers.uq.edu.au/researcher/327">Prof. Brian C. Lovell</a> and <a href="https://www.uq.id.au/a.wiliem/">Dr. Arnold Wiliem</a>. 
+      </p>
+      <p class="text-left">
+        I received my bachelor's degree from the South China University of Technology in 2015. During my undergraduate study, I spent one year as an exchange student at the University of Queensland and worked on my thesis project, Advanced FPGA design with ZedBoard, with Dr. Adam Postula.
+      </p>
+	  <p class="text-left">
+        My current works focus on object detection and related medical applications. My scholarship is funded by the Sullivan Nicolaides Pathology, Australia.
+      </p>
+	  <p class="text-left">
+        I'm now looking for internship. Please contact me if you have available positions.
+      </p>
+    </div>
+
+	
+    <div class="row">
+      <h3 class="text-left">News</h3>
+      <div class="news">
+        <ul>
+          <li><p class="text-left">[2018/09] We ranked 3rd in the detection track of <a href="http://ai.bu.edu/visda-2018/">Visual Domain Adaptation Challenge</a>. at ECCV 2018. </p></li>
+          <li><p class="text-left">[2018/07] One paper was accepted to ECCV 2018. </p></li>
+        </ul>
+      </div>
+    </div>
+
+
+	
+    <div class="row">
+      <h3 class="text-left">Education</h3>
+      <div class="col-xs-4">
+        <img src="about/UQlogoA_transparent.png" class="img-fluid school-fig">
+        <p>Doctor of Philosophy<br>
+          Computer Science<br>
+          The University of Queensland, Australia<br>
+          2016.01 - Present (expected to graduate in 2019.12)
+        </p>
+      </div>
+      <div class="col-xs-4">
+        <img src="about/Scut_logo.jpg" class="img-fluid school-fig img-circle">
+        <p>Bachelor of Engineering<br>
+          Information Engineering<br>
+          South China University of Technology, China<br>
+          2011.09 - 2015.07
+        </p>
+      </div>
+    </div>
+
+<!-- 	<div class="row">
+      <h3 class="text-left">Industry</h3>
+      <div class="col-xs-4">
+        <img src="about/china-mobile-logo.png" class="img-fluid company-fig img-circle">
+        <p>China Mobile<br>
+          Research Intern<br>
+          Summer 2014
+        </p>
+      </div>
+    </div> -->
+	
+	<div class="row">
+      <h3 class="text-left">Teaching</h3>
+      <ul>
+        <li><p class="text-left">Teaching Assistant, Computer Vision & Image Processing (ELEC 4630), The Uni of QLD, 2017</p></li>
+        <li><p class="text-left">Teaching Assistant, Digital Signal Processing (ELEC 4620), The Uni of QLD, 2017</p></li>
+      </ul>
+    </div>
+
+    <div class="row">
+      <h3 class="text-left">Professional Activities</h3>
+      <ul>
+        <li><p class="text-left">Reviewer, Pattern Recognition</p></li>
+        <li><p class="text-left">Reviewer, Pattern Recognition Letters</p></li>
+        <li><p class="text-left">Reviewer, IEEE Winter Conference on Applications of Computer Vision (WACV) 2017</p></li>
+      </ul>
+    </div>
+	
+  </div>
+</section>
+
+<!-- Section: Publication-->
+<section id="publication" class="section-publication">
+  <div class="container">
+    <div class="row">
+      <h1 class="subtitle">Selected Publications</h1>
+    </div>
+	
+    <div class="row">
+      <!-- <h3 class="text-left">Computer Vision and Deep Learning</h3> -->
+      <div class="row paper">
+        <div class="col-xs-3">
+          <img src="publications/fig_perceptibility_comparison.png" class="paper-fig img-responsive">
+        </div>
+        <div class="col-xs-9">
+          <h4 class="text-left">Using LIP to Gloss Over Faces in Single-Stage Face Detection Networks</h4>
+          <p class="text-left">
+            <span class="label label-success">Adversarial Attack</span>
+            <span class="label label-success">Face Detection</span>
+            <span class="label label-success">Object Detection</span>
+<!--             <span class="label label-success">Learning Using Priviledged Information</span> -->
+          </p>
+          <p class="text-left"><strong>Siqi Yang</strong>, Arnold Wiliem, Shaokang Chen, Brian C. Lovell</p>
+          <p class="text-left">European Conference on Computer Vision (ECCV) 2018</p>
+          <div class="text-left btns">
+            <a tabindex="0" class="btn btn-default btn-xs" role="button" data-toggle="popover" data-trigger="hover" data-placement="right"
+               title="Abstract" data-content="This work shows that it is possible to fool/attack recent state-of-the-art face detectors which are based on the single-stage networks. Successfully attacking face detectors could be a serious malware vulnerability when deploying a smart surveillance system utilizing face detectors. In addition, for the privacy concern, it helps prevent faces being harvested and stored in the server. We show that existing adversarial perturbation methods are not effective to perform such an attack, especially when there are multiple faces in the input image. This is because the adversarial perturbation specifically generated for one face may disrupt the adversarial perturbation for another face. In this paper, we call this problem the Instance Perturbation Interference (IPI) problem. This IPI problem is addressed by studying the relationship between the deep neural network receptive field and the adversarial perturbation. Besides the single-stage face detector, we find that the IPI problem also exists on the first stage of the Faster-RCNN, the commonly used two-stage object detector. As such, we propose the Localized Instance Perturbation (LIP) that confines the adversarial perturbation inside the Effective Receptive Field (ERF) of a target to perform the attack. Experimental results show the LIP method massively outperforms existing adversarial perturbation generation methods -- often by a factor of 2 to 10."
+            >Abstract</a>
+            <a class="btn btn-default btn-xs" target="_blank" href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Siqi_Yang_Using_LIP_to_ECCV_2018_paper.pdf">PDF</a>
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://alan.vision/eccv18_graph">Project</a> -->
+            <a class="btn btn-default btn-xs" target="_blank" href="http://siqi.vision/publications/eccv18_poster_Siqi_Yang_15_11_2018.pdf">Poster</a>
+			<a class="btn btn-default btn-xs" target="_blank" href="https://www.youtube.com/watch?v=nJdG4ujAg1Q">Demo video</a>
+          </div>
+        </div>
+      </div>
+	  
+	  <div class="row paper">
+        <div class="col-xs-3">
+          <img src="publications/cascadedrawing.jpg" class="paper-fig img-responsive">
+        </div>
+        <div class="col-xs-9">
+          <h4 class="text-left">It takes two to tangle: Cascading off-the-shelf face detectors</h4>
+          <p class="text-left">
+            <span class="label label-success">Face Detection</span>
+            <span class="label label-success">False Positive Analysis</span>
+            <!-- <span class="label label-success">Object Detection</span> -->
+<!--             <span class="label label-success">Learning Using Priviledged Information</span> -->
+          </p>
+          <p class="text-left"><strong>Siqi Yang</strong>, Arnold Wiliem, Brian C. Lovell</p>
+          <p class="text-left">Computer Vision and Pattern Recognition(CVPR) Workshop on Biometrics, 2018</p>
+          <div class="text-left btns">
+            <a tabindex="0" class="btn btn-default btn-xs" role="button" data-toggle="popover" data-trigger="hover" data-placement="right"
+               title="Abstract" data-content="Recent face detection methods have achieved high detection rates in unconstrained environments. However, as they still generate excessive false positives, any method for reducing false positives is highly desirable. This work aims to massively reduce false positives of existing face detection methods whilst maintaining the true detection rate. In addition, the proposed method also aims to sidestep the detector retraining task which generally requires enormous effort. To this end, we propose a two-stage framework which cascades two off-the-shelf face detectors. Not all face detectors can be cascaded and achieve good performance. Thus, we study three properties that allow us to determine the best pair of detectors. These three properties are: (1) correlation of true positives; (2) diversity of false positives and (3) detector runtime. Experimental results on recent large benchmark datasets such as FDDB and WIDER FACE support our findings that the false positives of a face detector could be potentially reduced by 90% whilst still maintaining high true positive detection rate. In addition, with a slight decrease in true positives, we found a pair of face detector that achieves significantly lower false positives, while being five times faster than the current state-of-the-art detector."
+            >Abstract</a>
+            <a class="btn btn-default btn-xs" target="_blank" href="http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w11/Yang_It_Takes_Two_CVPR_2018_paper.pdf">PDF</a>
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://alan.vision/eccv18_graph">Project</a> -->
+            <a class="btn btn-default btn-xs" target="_blank" href="http://siqi.vision/publications/cvprw18_poster.pdf">Poster</a>
+			<!-- <a class="btn btn-default btn-xs" target="_blank" href="https://www.youtube.com/watch?v=nJdG4ujAg1Q">Demo video</a> -->
+          </div>
+        </div>
+      </div>
+	  
+	  <div class="row paper">
+        <div class="col-xs-3">
+          <img src="publications/tvgan.jpg" class="paper-fig img-responsive">
+        </div>
+        <div class="col-xs-9">
+          <h4 class="text-left">TV-GAN: Generative Adversarial Network based Thermal to Visible Face Recognition</h4>
+          <p class="text-left">
+            <span class="label label-success">Face Recognition</span>
+            <span class="label label-success">Generative Adversarial Network</span>
+            <!-- <span class="label label-success">Object Detection</span> -->
+<!--             <span class="label label-success">Learning Using Priviledged Information</span> -->
+          </p>
+          <p class="text-left">Teng Zhang, <strong>Siqi Yang</strong>, Arnold Wiliem, Brian C. Lovell</p>
+          <p class="text-left">International Conference on Biometrics (ICB), 2018</p>
+          <div class="text-left btns">
+            <a tabindex="0" class="btn btn-default btn-xs" role="button" data-toggle="popover" data-trigger="hover" data-placement="right"
+               title="Abstract" data-content="This work tackles the face recognition task on images captured using thermal camera sensors which can operate in the non-light environment. While it can greatly increase the scope and benefits of the current security surveillance systems, performing such a task using thermal images is a challenging problem compared to face recognition task in the Visible Light Domain (VLD). This is partly due to the significantly smaller amount of thermal imagery data collected compared to the VLD data. Unfortunately, direct application of the existing very strong face recognition models trained using VLD data into the thermal imagery data will not produce a satisfactory performance. This is due to the existence of the domain gap between the thermal and VLD images. To this end, we propose a Thermal-to-Visible Generative Adversarial Network (TV-GAN) that is able to transform thermal face images into their corresponding VLD images whilst maintaining identity information which is sufficient enough for the existing VLD face recognition models to perform recognition. Some examples are presented in Figure 1. Unlike the previous methods, our proposed TV-GAN uses an explicit closed-set face recognition loss to regularize the discriminator network training. This information will then be conveyed into the generator network in the form of gradient loss. In the experiment, we show that by using this additional explicit regularization for the discriminator network, the TV-GAN is able to preserve more identity information when translating a thermal image of a person which is not seen before by the TV-GAN."
+            >Abstract</a>
+            <a class="btn btn-default btn-xs" target="_blank" href="https://arxiv.org/abs/1712.02514">PDF</a>
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://alan.vision/eccv18_graph">Project</a> -->
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://siqi.vision/publications/cvprw18_poster.pdf">Poster</a> -->
+			<!-- <a class="btn btn-default btn-xs" target="_blank" href="https://www.youtube.com/watch?v=nJdG4ujAg1Q">Demo video</a> -->
+          </div>
+        </div>
+      </div>
+	  
+	  <div class="row paper">
+        <div class="col-xs-3">
+          <img src="publications/ihog-01.jpg" class="paper-fig img-responsive">
+        </div>
+        <div class="col-xs-9">
+          <h4 class="text-left">To Face or Not To Face: Towards Reducing False Positive of Face Detection</h4>
+          <p class="text-left">
+            <span class="label label-success">Face Detection</span>
+            <span class="label label-success">False Positive Analysis</span>
+            <!-- <span class="label label-success">Object Detection</span> -->
+<!--             <span class="label label-success">Learning Using Priviledged Information</span> -->
+          </p>
+          <p class="text-left"><strong>Siqi Yang</strong>, Arnold Wiliem, Brian C. Lovell</p>
+          <p class="text-left">Image and Vision Computing New Zealand (IVCNZ), 2016</p>
+          <div class="text-left btns">
+            <a tabindex="0" class="btn btn-default btn-xs" role="button" data-toggle="popover" data-trigger="hover" data-placement="right"
+               title="Abstract" data-content="We tackle the problem of reducing the false positive rate of face detectors by applying a classifier after the detection step. We first define and study this post classification problem. To this end, we first consider the multiple-stage cascade structure which is the most common face detection architecture. Here, each cascade stage aims to solve a binary classification problem, denoted the Face/non-Face (FnF) problem. In this context, the post classification problem can be considered as the most challenging FnF problem, or the Hard FnF (HFnF) problem. To study the HFnF problem, we propose HFnF datasets derived from the recent face detection datasets. A baseline method utilizing the GIST features and Support Vector Machine (SVM) classifier is also proposed. In our evaluation, we found that it is possible to further improve the face detection performance by addressing the HFnF problem."
+            >Abstract</a>
+            <a class="btn btn-default btn-xs" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/7804415">PDF</a>
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://alan.vision/eccv18_graph">Project</a> -->
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://siqi.vision/publications/cvprw18_poster.pdf">Poster</a> -->
+			<!-- <a class="btn btn-default btn-xs" target="_blank" href="https://www.youtube.com/watch?v=nJdG4ujAg1Q">Demo video</a> -->
+          </div>
+        </div>
+      </div>
+	  
+	  <div class="row paper">
+        <div class="col-xs-3">
+          <img src="publications/GistDemo.jpg" class="paper-fig img-responsive">
+        </div>
+        <div class="col-xs-9">
+          <h4 class="text-left">The GIST of Aligning Faces</h4>
+          <p class="text-left">
+            <span class="label label-success">Face Alignment</span>
+            <!-- <span class="label label-success">Generative Adversarial Network</span> -->
+            <!-- <span class="label label-success">Object Detection</span> -->
+<!--             <span class="label label-success">Learning Using Priviledged Information</span> -->
+          </p>
+          <p class="text-left"><strong>Siqi Yang</strong>, Arnold Wiliem, Brian C. Lovell</p>
+          <p class="text-left">International Conference on Pattern Recognition (ICPR), 2016</p>
+          <div class="text-left btns">
+            <a tabindex="0" class="btn btn-default btn-xs" role="button" data-toggle="popover" data-trigger="hover" data-placement="right"
+               title="Abstract" data-content="We propose a novel supervised initialization scheme for cascaded face alignment by searching nearest neighbors based on global image descriptors. Unlike existing schemes which resort to additional large training data sets for learning features, our method does not require additional training steps; thus making our method low computational. Moreover, we found that it is sufficient to use a simple low-dimensional global image descriptor that is easy to extract. In particular, in this work we use the GIST features as our global image descriptor. The proposed initialization scheme outperforms existing initialization schemes for face alignment and improves on the state-of-the-art methods on two challenging datasets, 300-W and COFW."
+            >Abstract</a>
+            <a class="btn btn-default btn-xs" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/7900095">PDF</a>
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://alan.vision/eccv18_graph">Project</a> -->
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://siqi.vision/publications/cvprw18_poster.pdf">Poster</a> -->
+			<!-- <a class="btn btn-default btn-xs" target="_blank" href="https://www.youtube.com/watch?v=nJdG4ujAg1Q">Demo video</a> -->
+          </div>
+        </div>
+      </div>
+	  
+	  <div class="row paper">
+        <div class="col-xs-3">
+          <img src="publications/emotion.png" class="paper-fig img-responsive">
+        </div>
+        <div class="col-xs-9">
+          <h4 class="text-left">Landmark manifold: Revisiting the Riemannian manifold approach for facial emotion recognition</h4>
+          <p class="text-left">
+            <span class="label label-success">Facial Emotion Recognition</span>
+            <!-- <span class="label label-success">Generative Adversarial Network</span> -->
+            <!-- <span class="label label-success">Object Detection</span> -->
+<!--             <span class="label label-success">Learning Using Priviledged Information</span> -->
+          </p>
+          <p class="text-left">Kun Zhao, <strong>Siqi Yang</strong>, Arnold Wiliem, Brian C. Lovell</p>
+          <p class="text-left">International Conference on Pattern Recognition (ICPR), 2016</p>
+          <div class="text-left btns">
+            <a tabindex="0" class="btn btn-default btn-xs" role="button" data-toggle="popover" data-trigger="hover" data-placement="right"
+               title="Abstract" data-content="Automatically recognising facial emotions has drawn increasing attention in computer vision. Facial landmark based methods are one of the most widely used approaches to perform this task. However, these approaches do not provide good performance. Thus, researchers usually tend to combine more information such as textural and audio information to increase the recognition rate. In this paper we propose a novel method, here called the landmark manifold, that shows the possibility to achieve competitive performance by facial landmark information alone. Through experiments on the well-known dataset: marked Cohn-Kanade extended facial emotion dataset (CK+), we show that with accurate facial landmarks, our simple approach is fast to run and can achieve competitive performance with enormously expensive methods."
+            >Abstract</a>
+            <a class="btn btn-default btn-xs" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/7899782">PDF</a>
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://alan.vision/eccv18_graph">Project</a> -->
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://siqi.vision/publications/cvprw18_poster.pdf">Poster</a> -->
+			<!-- <a class="btn btn-default btn-xs" target="_blank" href="https://www.youtube.com/watch?v=nJdG4ujAg1Q">Demo video</a> -->
+          </div>
+        </div>
+      </div>
+	  
+
+	  
+  </div>
+</section>	
+	
 <!-- <h1>Hello Internet!</h1>
 <p>This is a paragraph.</p> -->
 <!-- <script>alert('Random Javascript!');</script> -->
