@@ -71,9 +71,9 @@ scrollspy function -->
         <h1>Siqi Yang</h1>
         <p>
           <!-- Stanford Vision and Learning Lab<br> -->
-		  PhD Candidate<br>
-          Advisor: Prof. Brian C. Lovell and Dr. Arnold Wiliem<br>
-          The University of Queensland<br>
+		  AI esearcher<br>
+          Game AI, ByteDance<br>
+          <!-- The University of Queensland<br> -->
           siqi.yang@uq.net.au<br>
           <a href="https://scholar.google.com.au/citations?user=AP6NwOkAAAAJ&hl=en">[Google Scholar]</a>
           <!-- <a href="https://github.com/d1ngn1gefe1">[Github]</a> -->
@@ -93,17 +93,20 @@ scrollspy function -->
 
     <div class="row">
       <p class="text-left">
-        I am a third-year PhD student in the School of Information Technology and Electrical Engineering at the University of Queensland, Australia. I am now under the supervision of <a href="https://researchers.uq.edu.au/researcher/327">Prof. Brian C. Lovell</a> and <a href="https://www.uq.id.au/a.wiliem/">Dr. Arnold Wiliem</a>. 
+        I am now an AI research engineer at Game AI Center, Bytedance. My current works focus on the computer vision algorithms in video games, such as game-character auto-creation. 
+      </p>
+      <p class="text-left">
+        I received my PhD from the University of Queensland, Australia in 2020.08. I was lucky to have <a href="https://researchers.uq.edu.au/researcher/327">Prof. Brian C. Lovell</a> and <a href="https://www.uq.id.au/a.wiliem/">Dr. Arnold Wiliem</a> as my advisors.
+        I aslo collaborated with Dr. Jun Zhang, Dr. Xiao Han at Tencent AI Lab, Shenzhen.
+        I was working in the robustness of computer vision applications, including domain adaptation, adversarial attacks and false positives.
       </p>
       <p class="text-left">
         I received my bachelor's degree from the South China University of Technology in 2015. During my undergraduate study, I spent one year as an exchange student at the University of Queensland and working on my thesis project, Advanced FPGA design with ZedBoard, with Dr. Adam Postula.
       </p>
-	  <p class="text-left">
-        My current works focus on object detection and related medical applications. 
-      </p>
-	  <p class="text-left">
-        I'm now looking for internship. Please contact me if you have available positions.
-      </p>
+
+	  <!-- <p class="text-left"> -->
+        <!-- I'm now looking for internship. Please contact me if you have available positions. -->
+      <!-- </p> -->
     </div>
 
 	
@@ -111,8 +114,9 @@ scrollspy function -->
       <h3 class="text-left">News</h3>
       <div class="news">
         <ul>
-          <li><p class="text-left">[2018/09] We ranked 3rd in the detection track of <a href="http://ai.bu.edu/visda-2018/">Visual Domain Adaptation Challenge</a>. at ECCV 2018. </p></li>
-          <li><p class="text-left">[2018/07] One paper was accepted to ECCV 2018. </p></li>
+          <li><p class="text-left">[2020/10] One paper was accepted to AAAI 2021. </p></li>
+          <!-- <li><p class="text-left">[2018/09] We ranked 3rd in the detection track of <a href="http://ai.bu.edu/visda-2018/">Visual Domain Adaptation Challenge</a>. at ECCV 2018. </p></li>
+          <li><p class="text-left">[2018/07] One paper was accepted to ECCV 2018. </p></li> -->
         </ul>
       </div>
     </div>
@@ -125,8 +129,9 @@ scrollspy function -->
         <img src="about/UQlogoA_transparent.png" class="img-fluid school-fig">
         <p>Doctor of Philosophy<br>
           Computer Science<br>
+          Advisors: Prof. Brian Lovell and Dr. Arnold Wiliem<br>
           The University of Queensland (UQ), Australia<br>
-          2016.01 - Present (expected to graduate in 2019.12)
+          2016.01 - 2020.08
         </p>
       </div>
       <div class="col-xs-4">
@@ -191,6 +196,62 @@ scrollspy function -->
 	
     <div class="row">
       <!-- <h3 class="text-left">Computer Vision and Deep Learning</h3> -->
+      <div class="row paper">
+        <div class="col-xs-3">
+          <img src="publications/aaai2021.png" class="paper-fig img-responsive">
+        </div>
+        <div class="col-xs-9">
+          <h4 class="text-left">Minimizing Labeling Cost for Nuclei Instance Segmentation and Classification with Cross-domain Images andWeak Labels</h4>
+          <p class="text-left">
+            <span class="label label-success">Unsupervised Domain Adaptation</span>
+            <span class="label label-success">Weakly-supervised Domain Adaptation</span>
+            <span class="label label-success">Medical Image Processing</span>
+            <span class="label label-success">Nuclei Instance Segmentation and Classification</span>
+<!--             <span class="label label-success">Learning Using Priviledged Information</span> -->
+          </p>
+          <p class="text-left"><strong>Siqi Yang</strong>*, Jun Zhang*, Junzhou Huang, Brian C. Lovell, Xiao Han (*Co-fisrt Author)</p>
+          <p class="text-left">AAAI Conference on Artificial Intelligence (AAAI), 2021</p>
+          <div class="text-left btns">
+            <a tabindex="0" class="btn btn-default btn-xs" role="button" data-toggle="popover" data-trigger="hover" data-placement="right"
+               title="Abstract" data-content="Nucleus instance segmentation and classification in histopathological images is an essential prerequisite in pathology diagnosis/prognosis. However, nucleus annotations (e.g., segmentation and labeling) require domain experts, and annotating nuclei at pixel-level is time-consuming and labor-intensive. Moreover, nuclei from different cancer types vary in shapes and appearances. These inter-cancer variations require careful annotations for specific cancer types. Therefore, to minimize the labeling cost, we propose a novel application that considers each cancer type as an individual domain and apply domain adaptation techniques to improve the segmentation/classification performance among different cancer types. Unlike the previous studies that focus on unsupervised or weakly-supervised domain adaptation independently, we would like to discover what kinds of labeling can achieve the most cost-effective domain adaptation performance in nucleus instance segmentation and classification. Specifically, we propose a unified framework that is applicable to different level annotations: no annotations, image-level, and point-level annotations. Cyclic adaptation with pseudo labels and adversarial discriminator are utilized for unsupervised domain alignment. Image-level or point-level annotations are additionally adopted to supervise the nucleus classification and refine the pseudo labels. Experiments demonstrate the effectiveness and efficacy of he proposed framework (jointly using unsupervised and weakly supervised learning) on adapting the segmentation and classification model from one cancer type to 18 other cancer types.
+               "
+            >Abstract</a>
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="https://openaccess.thecvf.com/content/ACCV2020/html/Yang_Unsupervised_Domain_Adaptive_Object_Detection_using_Forward-Backward_Cyclic_Adaptation_ACCV_2020_paper.html">PDF</a> -->
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://alan.vision/eccv18_graph">Project</a> -->
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://siqi.vision/publications/eccv18_poster_Siqi_Yang_15_11_2018.pdf">Poster</a> -->
+			<!-- <a class="btn btn-default btn-xs" target="_blank" href="https://accv2020.github.io/miniconf/poster_443.html">Video</a> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="row paper">
+        <div class="col-xs-3">
+          <img src="publications/accv2020.png" class="paper-fig img-responsive">
+        </div>
+        <div class="col-xs-9">
+          <h4 class="text-left">Unsupervised Domain Adaptive Object Detection using Forward-Backward Cyclic Adaptation</h4>
+          <p class="text-left">
+            <span class="label label-success">Unsupervised Domain Adaptation</span>
+            <span class="label label-success">Meta Learning</span>
+            <span class="label label-success">Object Detection</span>
+<!--             <span class="label label-success">Learning Using Priviledged Information</span> -->
+          </p>
+          <p class="text-left"><strong>Siqi Yang</strong>, Lin Wu, Arnold Wiliem, Brian C. Lovell</p>
+          <p class="text-left">Asian Conference on Computer Vision (ACCV), 2020</p>
+          <div class="text-left btns">
+            <a tabindex="0" class="btn btn-default btn-xs" role="button" data-toggle="popover" data-trigger="hover" data-placement="right"
+               title="Abstract" data-content="We present a novel approach to perform the unsupervised domain adaptation for object detection through forward-backward cyclic (FBC) training. Recent adversarial training based domain adaptation methods have shown their effectiveness on minimizing domain discrepancy via marginal feature distributions alignment. However, aligning the marginal feature distributions does not guarantee the alignment of class conditional distributions. This limitation is more evident when adapting object detectors as the domain discrepancy is larger compared to the image classification task, e.g. various number of objects exist in one image and the majority of content in an image is background. This motivates us to learn domain-invariance for category-level semantics via gradient alignment for instance-level adaptation. Intuitively, if the gradients of two domains point in similar directions, then the learning of one domain can improve that of another domain. To achieve gradient alignment, we propose Forward- Backward Cyclic Adaptation, which iteratively computes adaptation from source to target via backward hopping and from target to source via forward passing. In addition, we align low-level features for adapting image-level color/texture via adversarial training. However, the detector performs well on both domains is not ideal for the target domain. As such, in each cycle, domain diversity is enforced by maximum entropy regularization on the source domain to penalize confident source-specific learning and minimum entropy regularization on target domain to intrigue target-specific learning. Theoretical analysis of the training process is provided, and extensive experiments on challenging cross-domain object detection datasets have shown the superiority of our approach over the state-of-the-art.
+               "
+            >Abstract</a>
+            <a class="btn btn-default btn-xs" target="_blank" href="https://openaccess.thecvf.com/content/ACCV2020/html/Yang_Unsupervised_Domain_Adaptive_Object_Detection_using_Forward-Backward_Cyclic_Adaptation_ACCV_2020_paper.html">PDF</a>
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://alan.vision/eccv18_graph">Project</a> -->
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://siqi.vision/publications/eccv18_poster_Siqi_Yang_15_11_2018.pdf">Poster</a> -->
+			<a class="btn btn-default btn-xs" target="_blank" href="https://accv2020.github.io/miniconf/poster_443.html">Video</a>
+          </div>
+        </div>
+      </div>
+
+
       <div class="row paper">
         <div class="col-xs-3">
           <img src="publications/fig_perceptibility_comparison.png" class="paper-fig img-responsive">
