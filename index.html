@@ -96,9 +96,9 @@ scrollspy function -->
         I am now an AI Research Scientist at Innovation and Entertainment Group, Tencent. My current works focus on the computer vision algorithms for video games and metaverse, such as text conditioned human motion generation, dance generation and game-character auto-creation. Prior to this, I was a Research Scientist for Game AI Team at Bytedance.
       </p>
       <p class="text-left">
-        I received my PhD from the University of Queensland, Australia in 2020. I was lucky to have <a href="https://researchers.uq.edu.au/researcher/327">Prof. Brian C. Lovell</a> and <a href="https://sites.google.com/view/arnoldwiliem/home">Dr. Arnold Wiliem</a> as my advisors.
+        I received my Ph.D from the University of Queensland, Australia in 2020. I was lucky to have <a href="https://researchers.uq.edu.au/researcher/327">Prof. Brian C. Lovell</a> and <a href="https://sites.google.com/view/arnoldwiliem/home">Dr. Arnold Wiliem</a> as my advisors.
         I aslo collaborated with <a href="https://junzhang.org/">Dr. Jun Zhang</a>, Dr. Xiao Han at Tencent AI Lab, Shenzhen.
-        I was working in the robustness of computer vision applications, including domain adaptation, adversarial attacks and false positives.
+        During my Ph.D. I was working in the robustness of computer vision applications, including domain adaptation, adversarial attacks and false positives.
       </p>
       <p class="text-left">
         I received my bachelor's degree from the South China University of Technology in 2015. During my undergraduate study, I spent one year as an exchange student at the University of Queensland and working on my thesis project, Advanced FPGA design with ZedBoard, with Dr. Adam Postula.
@@ -110,21 +110,21 @@ scrollspy function -->
     </div>
 
 	
-    <div class="row">
+    <!-- <div class="row">
       <h3 class="text-left">News</h3>
       <div class="news">
         <ul>
-          <li><p class="text-left">[2020/10] One paper was accepted to AAAI 2021. </p></li>
-          <!-- <li><p class="text-left">[2018/09] We ranked 3rd in the detection track of <a href="http://ai.bu.edu/visda-2018/">Visual Domain Adaptation Challenge</a>. at ECCV 2018. </p></li>
-          <li><p class="text-left">[2018/07] One paper was accepted to ECCV 2018. </p></li> -->
+          <li><p class="text-left">[2020/10] One paper was accepted to AAAI 2021. </p></li> 
+          <li><p class="text-left">[2018/09] We ranked 3rd in the detection track of <a href="http://ai.bu.edu/visda-2018/">Visual Domain Adaptation Challenge</a>. at ECCV 2018. </p></li>
+          <li><p class="text-left">[2018/07] One paper was accepted to ECCV 2018. </p></li>
         </ul>
       </div>
-    </div>
+    </div> -->
 
     <div class="row">
       <h3 class="text-left">Work</h3>
       <ul>
-        <li><p class="text-left">2022.04 - present, Research Scientist, Tencent</p></li>
+        <li><p class="text-left">2022.04 - Present, Research Scientist, Tencent</p></li>
         <li><p class="text-left">2020.11 - 2022.04, Research Scientist, Bytedance</p></li>
       </ul>
     </div>
@@ -192,6 +192,17 @@ scrollspy function -->
     </div>
 	
   </div>
+
+  <div class="row">
+    <h3 class="text-left">Patents</h3>
+    <ul>
+      <li><p class="text-left">Granted: CN112215212B, CN112215212B, CN113409437B, HK40037354, HK40053219 </p></li>
+      <li><p class="text-left">Published: CN114693876A, CN114092712A, CN114049417A, CN114863214A, CN115253303A, CN115311127A, </p></li>
+    </ul>
+  </div>
+
+
+
 </section>
 
 <!-- Section: Publication-->
@@ -203,6 +214,64 @@ scrollspy function -->
 	
     <div class="row">
       <!-- <h3 class="text-left">Computer Vision and Deep Learning</h3> -->
+
+      <div class="row paper">
+        <div class="col-xs-3">
+          <img src="publications/dance.png" class="paper-fig img-responsive">
+        </div>
+        <div class="col-xs-9">
+          <h4 class="text-left">LongDanceDiff: Long-term Dance Generation with Conditional Diffusion Model</h4>
+          <p class="text-left">
+            <span class="label label-success">Dance Generation</span>
+            <span class="label label-success">Conditional Diffusion Model</span>
+            <span class="label label-success">Generative AI</span>
+            <span class="label label-success">Game and Virtual Huamn</span>
+<!--             <span class="label label-success">Learning Using Priviledged Information</span> -->
+          </p>
+          <p class="text-left"><strong>Siqi Yang</strong>, Zejun Yang, Zhisheng Wang</p>
+          <p class="text-left">arxiv, 2023</p>
+          <div class="text-left btns">
+            <a tabindex="0" class="btn btn-default btn-xs" role="button" data-toggle="popover" data-trigger="hover" data-placement="right"
+               title="Abstract" data-content="Dancing with music is always an essential human art form to express emotion. Due to the high temporal-spacial complexity, long-term 3D realist dance generation synchronized with music is challenging. Existing methods suffer from the freezing problem when generating long-term dances due to error accumulation and training-inference discrepancy. To address this, we design a conditional diffusion model, LongDanceDiff, for this sequence-to-sequence long-term dance generation, addressing the challenges of temporal coherency and spatial constraint. LongDanceDiff contains a transformer-based diffusion model, where the input is a concatenation of music, past motions, and noised future motions. This partial noising strategy leverages the full-attention mechanism and learns the dependencies among music and past motions. To enhance the diversity of generated dance motions and mitigate the freezing problem, we introduce a mutual information minimization objective that regularizes the dependency between past and future motions. We also address common visual quality issues in dance generation, such as foot sliding and unsmooth motion, by incorporating spatial constraints through a Global-Trajectory Modulation (GTM) layer and motion perceptual losses, thereby improving the smoothness and naturalness of motion generation. Extensive experiments demonstrate a significant improvement in our approach over the existing state-of-the-art methods. We plan to release our codes and models soon.
+               "
+            >Abstract</a>
+            <a class="btn btn-default btn-xs" target="_blank" href="https://arxiv.org/pdf/2308.11945v1.pdf">PDF</a>
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://alan.vision/eccv18_graph">Project</a> -->
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://siqi.vision/publications/eccv18_poster_Siqi_Yang_15_11_2018.pdf">Poster</a> -->
+			<!-- <a class="btn btn-default btn-xs" target="_blank" href="https://accv2020.github.io/miniconf/poster_443.html">Video</a> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="row paper">
+        <div class="col-xs-3">
+          <img src="publications/game_character.png" class="paper-fig img-responsive">
+        </div>
+        <div class="col-xs-9">
+          <h4 class="text-left">Regressive Domain Adaptation for 3D Game Character Auto-Creation using Synthetic Data</h4>
+          <p class="text-left">
+            <span class="label label-success">3D Game Character Creation</span>
+            <span class="label label-success">Unsupervised Domain Adaptation</span>
+            <span class="label label-success">Generative AI</span>
+            <span class="label label-success">Game and Virtual Huamn</span>
+<!--             <span class="label label-success">Learning Using Priviledged Information</span> -->
+          </p>
+          <p class="text-left"><strong>Siqi Yang</strong>, Feng Xiong, Yongqiang Gao, Yongqiang Mou, Hongliang Li</p>
+          <p class="text-left">arxiv, 2022</p>
+          <div class="text-left btns">
+            <a tabindex="0" class="btn btn-default btn-xs" role="button" data-toggle="popover" data-trigger="hover" data-placement="right"
+               title="Abstract" data-content="Many Role-Playing Games (RPGs) provide character customization systems that allow users to manually adjust the facial appearance and attributes of the game characters (avatars). However, it often takes hours to customize a satisfactory character. The task of 3D game character auto-creation is to automatically learn the parameters in the game engines that render game characters. Previous works enforce the training to match the distribution in the real image domain under a self-supervised learning paradigm. However, the ignorance of domain difference would result in low rendering quality in generated characters. To overcome this, we proposed to introduce source-specific knowledge and minimize the domain-discrepancy. We are the first to use the numerous labeled game characters images produced by the game engine via unsupervised domain adaptation (UDA). In our UDA framework, we propose a meta-learning based pseudo-labeling method to optimize the pseudo labels for this regression problem as our meta loop for domain adaptation. To harvest both the source-specific and target-specific knowledge, we design an inner loop that integrates unsupervised domain adaptation and self-supervised learning. This integration can introduce domain-diversity and encourage domain-invariance simultaneously. Experiments have demonstrated our proposed method could achieve both high face verification accuracy and high rendering quality.
+               "
+            >Abstract</a>
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="https://arxiv.org/pdf/2308.11945v1.pdf">PDF</a> -->
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://alan.vision/eccv18_graph">Project</a> -->
+            <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://siqi.vision/publications/eccv18_poster_Siqi_Yang_15_11_2018.pdf">Poster</a> -->
+			<!-- <a class="btn btn-default btn-xs" target="_blank" href="https://accv2020.github.io/miniconf/poster_443.html">Video</a> -->
+          </div>
+        </div>
+      </div>
+
+
       <div class="row paper">
         <div class="col-xs-3">
           <img src="publications/aaai2021.png" class="paper-fig img-responsive">
@@ -223,7 +292,7 @@ scrollspy function -->
                title="Abstract" data-content="Nucleus instance segmentation and classification in histopathological images is an essential prerequisite in pathology diagnosis/prognosis. However, nucleus annotations (e.g., segmentation and labeling) require domain experts, and annotating nuclei at pixel-level is time-consuming and labor-intensive. Moreover, nuclei from different cancer types vary in shapes and appearances. These inter-cancer variations require careful annotations for specific cancer types. Therefore, to minimize the labeling cost, we propose a novel application that considers each cancer type as an individual domain and apply domain adaptation techniques to improve the segmentation/classification performance among different cancer types. Unlike the previous studies that focus on unsupervised or weakly-supervised domain adaptation independently, we would like to discover what kinds of labeling can achieve the most cost-effective domain adaptation performance in nucleus instance segmentation and classification. Specifically, we propose a unified framework that is applicable to different level annotations: no annotations, image-level, and point-level annotations. Cyclic adaptation with pseudo labels and adversarial discriminator are utilized for unsupervised domain alignment. Image-level or point-level annotations are additionally adopted to supervise the nucleus classification and refine the pseudo labels. Experiments demonstrate the effectiveness and efficacy of he proposed framework (jointly using unsupervised and weakly supervised learning) on adapting the segmentation and classification model from one cancer type to 18 other cancer types.
                "
             >Abstract</a>
-            <!-- <a class="btn btn-default btn-xs" target="_blank" href="https://openaccess.thecvf.com/content/ACCV2020/html/Yang_Unsupervised_Domain_Adaptive_Object_Detection_using_Forward-Backward_Cyclic_Adaptation_ACCV_2020_paper.html">PDF</a> -->
+            <a class="btn btn-default btn-xs" target="_blank" href="https://ojs.aaai.org/index.php/AAAI/article/view/16150">PDF</a>
             <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://alan.vision/eccv18_graph">Project</a> -->
             <!-- <a class="btn btn-default btn-xs" target="_blank" href="http://siqi.vision/publications/eccv18_poster_Siqi_Yang_15_11_2018.pdf">Poster</a> -->
 			<!-- <a class="btn btn-default btn-xs" target="_blank" href="https://accv2020.github.io/miniconf/poster_443.html">Video</a> -->
